@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+# 직원 호출용 임시 검토 폴더(비밀·개인 정보 금지)
+review/
+_test_empty/
+*.bak
