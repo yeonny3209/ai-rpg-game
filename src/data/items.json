@@ -1,0 +1,22 @@
+{
+  "grades": [
+    { "id": "common", "name": "일반", "color": "#b0b7c3", "mult": 1.0, "weight": 60 },
+    { "id": "uncommon", "name": "고급", "color": "#4ade80", "mult": 1.5, "weight": 28 },
+    { "id": "rare", "name": "희귀", "color": "#4aa8ff", "mult": 2.2, "weight": 10 },
+    { "id": "epic", "name": "영웅", "color": "#c77dff", "mult": 3.2, "weight": 2 }
+  ],
+  "slots": {
+    "weapon": {
+      "name": "무기", "stats": { "atk": 6 },
+      "names": ["고철 블레이드", "플라즈마 소드", "펄스 건틀릿", "양자 대검"]
+    },
+    "armor": {
+      "name": "방어구", "stats": { "def": 5, "hp": 20 },
+      "names": ["누더기 장갑", "강화 합금 조끼", "나노 섬유 갑옷", "위상 방벽 슈트"]
+    },
+    "accessory": {
+      "name": "장신구", "stats": { "speed": 12, "hp": 15 },
+      "names": ["녹슨 칩", "신호 증폭기", "광자 코어", "특이점 반지"]
+    }
+  }
+}

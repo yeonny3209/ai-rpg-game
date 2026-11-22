@@ -1,11 +1,24 @@
 {
   "cyberDog": {
-    "name": "사이버 개",
-    "color": "#ff3d81",
-    "hp": 60,
-    "atk": 16,
-    "def": 0,
-    "speed": 190,
-    "attackInterval": 1.0
+    "name": "사이버 개", "color": "#ff3d81", "role": "melee",
+    "hp": 60, "atk": 16, "def": 0, "speed": 190, "attackInterval": 1.0,
+    "radius": 12, "xp": 30, "dropChance": 0.25
+  },
+  "scoutDrone": {
+    "name": "정찰 드론", "color": "#ffb13d", "role": "ranged",
+    "hp": 45, "atk": 16, "def": 0, "speed": 170, "attackInterval": 1.8,
+    "radius": 11, "xp": 45, "dropChance": 0.3,
+    "keepDistance": 260, "projectileSpeed": 300
+  },
+  "heavyTrooper": {
+    "name": "중장갑 보병", "color": "#4aa8ff", "role": "melee",
+    "hp": 140, "atk": 22, "def": 8, "speed": 140, "attackInterval": 1.4,
+    "radius": 17, "xp": 68, "dropChance": 0.4
+  },
+  "mechBoss": {
+    "name": "프로토타입 메카", "color": "#ff5555", "role": "boss",
+    "hp": 2500, "atk": 35, "def": 5, "speed": 160, "attackInterval": 2.0,
+    "radius": 30, "xp": 450, "dropChance": 1.0, "minDropGrade": 2,
+    "burstInterval": 4, "burstCount": 8, "projectileSpeed": 260
   }
 }

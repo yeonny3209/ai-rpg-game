@@ -1,4 +1,8 @@
 {
-  "charge": { "name": "돌진", "mult": 1.8, "cooldown": 4.5 },
-  "bolt": { "name": "강타", "mult": 2.2, "cooldown": 4.0 }
+  "charge": { "name": "돌진", "type": "charge", "mult": 1.8, "cooldown": 4.5 },
+  "sweep": { "name": "범위 베기", "type": "sweep", "mult": 2.5, "cooldown": 8.0, "radius": 110 },
+  "guard": { "name": "방어 태세", "type": "guard", "mult": 0, "cooldown": 15.0, "duration": 4, "reduction": 0.5 },
+  "bolt": { "name": "강타", "type": "bolt", "mult": 2.2, "cooldown": 4.0 },
+  "flame": { "name": "불꽃 지대", "type": "flame", "mult": 3.2, "cooldown": 10.0, "radius": 90, "duration": 3, "ticks": 6, "range": 320 },
+  "stun": { "name": "충격파", "type": "stun", "mult": 1.2, "cooldown": 12.0, "radius": 130, "stunSec": 2 }
 }

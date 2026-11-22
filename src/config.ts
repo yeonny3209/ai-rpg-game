@@ -20,4 +20,5 @@ export const COMBAT = {
   chargeDistance: 200,
   chargeDuration: 0.18,
   hitFlashSec: 0.1,
+  healOnClear: 0.5, // 웨이브를 클리어하면 최대 체력의 이 비율만큼 회복 (Phase 2 봇 시뮬레이션에서 필요해 추가)
 };

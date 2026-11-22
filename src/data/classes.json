@@ -9,18 +9,20 @@
     "speed": 220,
     "attackInterval": 0.6,
     "attackType": "melee",
-    "skillId": "charge"
+    "skillIds": ["charge", "sweep", "guard"],
+    "growth": { "hp": 30, "atk": 4, "def": 2 }
   },
   {
     "id": "mage",
     "name": "마법사",
     "color": "#8a7dff",
-    "hp": 120,
+    "hp": 150,
     "atk": 28,
     "def": 5,
     "speed": 215,
     "attackInterval": 0.8,
     "attackType": "ranged",
-    "skillId": "bolt"
+    "skillIds": ["bolt", "flame", "stun"],
+    "growth": { "hp": 22, "atk": 4, "def": 1 }
   }
 ]

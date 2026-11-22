@@ -20,7 +20,7 @@ export class ClassSelectScene extends Phaser.Scene {
     CLASSES.forEach((cls, i) => {
       const x = startX + i * (w + gap);
       const y = GAME_H / 2 + 10;
-      const skill = SKILLS[cls.skillId];
+      const skillNames = cls.skillIds.map((id) => SKILLS[id].name).join(' · ');
       const color = Phaser.Display.Color.HexStringToColor(cls.color).color;
 
       const box = this.add
@@ -39,7 +39,7 @@ export class ClassSelectScene extends Phaser.Scene {
             `체력 ${cls.hp}   공격 ${cls.atk}   방어 ${cls.def}`,
             `이동 ${cls.speed}   공격 간격 ${cls.attackInterval}초`,
             `기본: ${cls.attackType === 'melee' ? '근접 베기' : '원거리 투사체'}`,
-            `[Q] ${skill.name} (대기 ${skill.cooldown}초)`,
+            `스킬: ${skillNames}`,
           ],
           { fontSize: '16px', color: '#cfefff', align: 'center', lineSpacing: 6 },
         )
@@ -51,7 +51,7 @@ export class ClassSelectScene extends Phaser.Scene {
     });
 
     this.add
-      .text(GAME_W / 2, GAME_H - 40, 'WASD 이동 · 마우스 조준 · 클릭 공격 · Q 스킬 · Space 회피', {
+      .text(GAME_W / 2, GAME_H - 40, 'WASD 이동 · 마우스 조준 · 클릭 공격 · Q/E/F 스킬 · Space 회피 · T 스킬 트리 · I 장비', {
         fontSize: '16px',
         color: '#8fa3c7',
       })
