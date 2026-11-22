@@ -126,7 +126,7 @@
 
 하루 2~3시간 기준의 **대략적인 규모**예요. 확정 일정이 아니고, 정해진 출시일은 없어요.
 
-### Phase 0. 준비 (1~3일) — [로컬 완료 2026-11-22 / GitHub 연결·Pages 설정은 사용자 작업 대기]
+### Phase 0. 준비 (1~3일) — [완료 2026-11-22] 배포 주소: https://yeonny3209.github.io/ai-rpg-game/
 - 폴더에서 git 초기화, GitHub 저장소 연결 (원격 업로드는 사용자 승인 후)
 - Phaser + TypeScript + Vite 프로젝트 만들기, `npm run dev`로 빈 화면 확인
 - `docs\ASSETS.md`, `docs\ART_BIBLE.md`, `docs\STORY.md` 뼈대 만들기
