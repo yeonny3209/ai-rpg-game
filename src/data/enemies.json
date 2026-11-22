@@ -1,0 +1,11 @@
+{
+  "cyberDog": {
+    "name": "사이버 개",
+    "color": "#ff3d81",
+    "hp": 60,
+    "atk": 16,
+    "def": 0,
+    "speed": 190,
+    "attackInterval": 1.0
+  }
+}

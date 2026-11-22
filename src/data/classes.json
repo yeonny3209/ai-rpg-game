@@ -1,0 +1,26 @@
+[
+  {
+    "id": "warrior",
+    "name": "전사",
+    "color": "#ff7a59",
+    "hp": 200,
+    "atk": 25,
+    "def": 15,
+    "speed": 220,
+    "attackInterval": 0.6,
+    "attackType": "melee",
+    "skillId": "charge"
+  },
+  {
+    "id": "mage",
+    "name": "마법사",
+    "color": "#8a7dff",
+    "hp": 120,
+    "atk": 28,
+    "def": 5,
+    "speed": 215,
+    "attackInterval": 0.8,
+    "attackType": "ranged",
+    "skillId": "bolt"
+  }
+]

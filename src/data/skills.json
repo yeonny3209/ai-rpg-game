@@ -1,0 +1,4 @@
+{
+  "charge": { "name": "돌진", "mult": 1.8, "cooldown": 4.5 },
+  "bolt": { "name": "강타", "mult": 2.2, "cooldown": 4.0 }
+}
